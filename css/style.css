@@ -1,0 +1,91 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Allison', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 800px;
+	height: 400px;
+	background: green;
+	position: relative;
+
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 100px;
+	left: 0%;
+	z-index: 1;
+}
+.yellow{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: absolute;
+	top: 20%;
+	right: 70%;
+	z-index: 2;
+}
+.fb{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+	transition: 1s;
+}
+.fb:hover{
+	right: -3px;
+	cursor: pointer;
+}
+.social-media{
+	width: 100%;
+	margin: 80px 0px;
+	padding: 80px 0px;
+	background: gray;
+}
+.social-icons{
+	text-align: center;
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a .fa{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 30px;
+	border-radius: 100%;
+	margin: 0px 15px;
+	transition: 1s;
+
+}
+.social-icons li a .fa-facebook:hover{
+	background: #097EEB;
+	color: #fff;
+}
+.social-icons li a .fa-youtube:hover, .social-icons li a .fa-youtube:focus{
+	background: #FF0000;
+	color: #fff;
+}
+
+.social-icons li a .fa-behance:hover{
+	background: #08c;
+	color: #fff;
+}
